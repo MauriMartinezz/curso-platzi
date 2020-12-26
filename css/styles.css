@@ -1,23 +1,31 @@
 body{
-    text-align: center;
-    color: rgb(10, 62, 114);
-    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+    color: rgb(51, 51, 51);
+    background-color: rgb(39, 89, 112);
     font-family: Arial, Helvetica, sans-serif;
 }
 .post{
     border: 1px solid rgb(167, 164, 164);
-    padding: 1em;
+    padding: 0em 3em 3em 3em;
     border-radius: 5px;
     margin-top: 10em;
     max-width: 60%;
-    margin: 10em auto
+    margin: 10em auto;
+    background-color: #fff;
 }
-
-.post>h1{
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
-    font-size: 2.3em;
+.title{
+    display: block;
+    font-size: 1.3em;
+    text-align: start;
 }
-.post p{
+.title h1{
+    display: inline-block;
+}
+.title .icon{
+    display: inline-block;
+    width: 1.8em;
+}
+.content p{
     font-weight: 100;
+    margin: 2em 10em;
 }
