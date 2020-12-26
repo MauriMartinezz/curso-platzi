@@ -1,4 +1,4 @@
-##Hyperblog
+#Hyperblog
 > Platzi course to learn all about Git and Github.
 -Freddy Vega
 
