@@ -29,3 +29,7 @@ body{
     font-weight: 100;
     margin: 2em 10em;
 }
+.content p img{
+    width: 800px;
+    image-rendering: pixelated;
+}
